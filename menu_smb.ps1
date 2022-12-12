@@ -17,7 +17,7 @@ function menu
     `n` 6: Dejar de compartir la carpeta scanner.
     `n` 7: Ejecucion hostname (para saber nombre del equipo de red ponerlo en la impresora).
     `n` 8: Salir.
-    `n` Opción"
+    `n` Opcion"
    switch ($repuesta)
    {
        1{Enable-WindowsOptionalFeature -Online -FeatureName SMB1Protocol}
