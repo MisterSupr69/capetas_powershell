@@ -12,8 +12,8 @@ function menu
     `n` 1: Habilitar Protocolo SMB1 (Requiere reinicio una vez ejecutado).
     `n` 2: Desabilitar Protocolo SMB2.
     `n` 3: Habilita Protocolo SMB2.
-    `n` 4: Instalacion y configuración carpeta scanner (creacion carpeta c:/scanner crea acceso directo escritorio y comparte carpeta SMB).
-    `n` 5: Modificacion registro (veryoneincludesanonymous=0,NoLmHash=1 y restrictnullsessaccess=0)Si da problemas para quitar uso compatido por contraseña.
+    `n` 4: Instalacion y configuracion carpeta scanner (creacion carpeta c:/scanner crea acceso directo escritorio y comparte carpeta SMB).
+    `n` 5: Modificacion registro (veryoneincludesanonymous=0,NoLmHash=1 y restrictnullsessaccess=0)Si da problemas para quitar uso compatido por passwod.
     `n` 6: Dejar de compartir la carpeta scanner.
     `n` 7: Ejecucion hostname (para saber nombre del equipo de red ponerlo en la impresora).
     `n` 8: Salir.
