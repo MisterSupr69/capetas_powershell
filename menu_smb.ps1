@@ -13,10 +13,10 @@ function menu
     `n` 1: Habilitar Protocolo SMB1 (Requiere reinicio una vez ejecutado)
     `n` 2: Desabilitar Protocolo SMB2
     `n` 3: Habilita Protocolo SMB2
-    `n` 4: Instalacion y configuración carpeta scanner (creacion carpeta c:/scanner crea acceso directo escritorio y comparte carpeta SMB)
+    `n` 4: Instalacion y configuracion carpeta scanner (creacion carpeta c:/scanner crea acceso directo escritorio y comparte carpeta SMB)
     `n` 5: Dejar de compartir la carpeta scanner
     `n` 6: Salir
-    `n` Opción"
+    `n` Opcion"
    switch ($repuesta)
    {
        1{Enable-WindowsOptionalFeature -Online -FeatureName SMB1Protocol}
@@ -39,7 +39,6 @@ function menu
    
     
 }
-
 
     do
     {
