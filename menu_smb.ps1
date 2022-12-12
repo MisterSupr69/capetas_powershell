@@ -45,4 +45,4 @@ function menu
         clear
         menu
         Read-Host "Pulsa intro para seguir"
-    }while ($ture)
+    }while ($true)
