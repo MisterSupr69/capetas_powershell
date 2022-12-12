@@ -9,7 +9,7 @@ function menu
     `n`#                                        Echo por @MisterSupr69 2023                                               #
     `n`#                                                                                                                  #
     `n`####################################################################################################################
-    `n` Eligue una opción: 
+    `n` Eligue una opcion: 
     `n` 1: Habilitar Protocolo SMB1 (Requiere reinicio una vez ejecutado)
     `n` 2: Desabilitar Protocolo SMB2
     `n` 3: Habilita Protocolo SMB2
