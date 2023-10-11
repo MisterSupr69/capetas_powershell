@@ -59,7 +59,7 @@ function menu
            Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))        
        }
        9{
-           choco install -y googlechrome --ignore-checksums
+           choco install -y googlechrome --ignore-checksums --force 
            choco install -y firefox --ignore-checksums --force 
            choco install -y winrar --ignore-checksums --force
            choco install -y open-shell --ignore-checksums --force
@@ -79,7 +79,7 @@ function menu
            choco install -y anydesk --ignore-checksums --force
        }
        11{
-           choco install -y googlechrome --ignore-checksums
+           choco install -y googlechrome --ignore-checksums --force 
            choco install -y firefox --ignore-checksums --force 
            choco install -y winrar --ignore-checksums --force
            choco install -y open-shell --ignore-checksums --force
@@ -93,7 +93,7 @@ function menu
            choco install -y anydesk --ignore-checksums --force
        }
        12{
-           choco -y uninstall googlechrome --ignore-checksums
+           choco -y uninstall googlechrome --ignore-checksums --force
            choco -y uninstall firefox --ignore-checksums --force 
            choco -y uninstall winrar --ignore-checksums --force 
            choco -y uninstall open-shell --ignore-checksums --force 
