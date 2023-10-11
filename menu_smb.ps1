@@ -97,7 +97,7 @@ function menu
            choco uninstall firefox -y --force
            choco uninstall winrar -y --force
            choco uninstall open-shell -y --force
-           choco uninstall vlc-skins -y --force
+           choco uninstall vlc -y --force
            choco uninstall gimp -y --force
            choco uninstall adobereader -y --force
            choco uninstall onlyoffice -y --force
