@@ -93,9 +93,9 @@ function menu
            choco install -y anydesk --ignore-checksums --force
        }
        12{
-           choco -y uninstall googlechrome --ignore-checksums --force
-           choco -y uninstall firefox --ignore-checksums --force 
-           choco -y uninstall winrar --ignore-checksums --force 
+           choco -y uninstall googlechrome --force
+           choco -y uninstall firefox --force 
+           choco -y uninstall winrar  --force 
            choco -y uninstall open-shell --ignore-checksums --force 
            choco -y uninstall vlc --ignore-checksums --force 
            choco -y uninstall gimp --ignore-checksums --force 
