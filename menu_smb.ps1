@@ -93,19 +93,19 @@ function menu
            choco install -y anydesk --ignore-checksums --force
        }
        12{
-           choco -y uninstall googlechrome --force
-           choco -y uninstall firefox --force 
-           choco -y uninstall winrar  --force 
-           choco -y uninstall open-shell --ignore-checksums --force 
-           choco -y uninstall vlc --ignore-checksums --force 
-           choco -y uninstall gimp --ignore-checksums --force 
-           choco -y uninstall adobereader --ignore-checksums --force 
-           choco -y uninstall onlyoffice --ignore-checksums --force 
-           choco -y uninstall audacity --ignore-checksums --force 
-           choco -y uninstall imgburn --ignore-checksums --force 
-           choco -y uninstall 7zip.install --ignore-checksums --force 
-           choco -y uninstall teamviewer --ignore-checksums --force 
-           choco -y uninstall anydesk --ignore-checksums --force 
+           choco  uninstall googlechrome --force
+           choco  uninstall firefox --force 
+           choco  uninstall winrar  --force 
+           choco  uninstall open-shell --ignore-checksums --force 
+           choco  uninstall vlc --ignore-checksums --force 
+           choco  uninstall gimp --ignore-checksums --force 
+           choco  uninstall adobereader --ignore-checksums --force 
+           choco  uninstall onlyoffice --ignore-checksums --force 
+           choco  uninstall audacity --ignore-checksums --force 
+           choco  uninstall imgburn --ignore-checksums --force 
+           choco  uninstall 7zip.install --ignore-checksums --force 
+           choco  uninstall teamviewer --ignore-checksums --force 
+           choco  uninstall anydesk --ignore-checksums --force 
        
        }
        13{exit}
