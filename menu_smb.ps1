@@ -30,7 +30,7 @@ function menu
     `n` 9: Instalar TODO_APLICACONES.
     `n` 10: Instalar REMOTAS.
     `n` 11: Instalar TODO_SIN_ONLIOFFICE.
-    `n` 12: DESISTALACION TODO.
+    `n` 12: BOORAR TODO.
     `n` 13: SALIR
     `n` Opcion"
    switch ($repuesta)
