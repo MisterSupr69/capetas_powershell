@@ -59,53 +59,53 @@ function menu
            Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))        
        }
        9{
-           choco install chrome-remote-desktop-chrome -y --force
-           choco install firefox -y --force
-           choco install winrar -y --force
-           choco install open-shell -y --force
-           choco install vlc-skins -y --force
-           choco install gimp -y --force
-           choco install adobereader -y --force
-           choco install onlyoffice -y --force
-           choco install audacity -y --force
-           choco install imgburn -y --force
-           choco install 7zip.install -y --force
-           choco install teamviewer -y --force
-           choco install anydesk -y --force
+           choco install -y googlechrome --ignore-checksums
+           choco install -y firefox --ignore-checksums --force 
+           choco install -y winrar --ignore-checksums --force
+           choco install -y open-shell --ignore-checksums --force
+           choco install -y vlc-skins --ignore-checksums --force
+           choco install -y gimp --ignore-checksums --force
+           choco install -y adobereader --ignore-checksums --force
+           choco install -y onlyoffice --ignore-checksums --force
+           choco install -y audacity --ignore-checksums --force
+           choco install -y imgburn --ignore-checksums --force
+           choco install -y 7zip.install --ignore-checksums --force
+           choco install -y teamviewer --ignore-checksums --force
+           choco install -y anydesk --ignore-checksums --force
           
        }
        10{
-           choco install teamviewer -y --force
-           choco install anydesk -y --force
+           choco install -y teamviewer --ignore-checksums --force
+           choco install -y anydesk --ignore-checksums --force
        }
        11{
-           choco install chrome-remote-desktop-chrome -y --force
-           choco install firefox -y --force
-           choco install winrar -y --force
-           choco install open-shell -y --force
-           choco install vlc-skins -y --force
-           choco install gimp -y --force
-           choco install adobereader -y --force
-           choco install audacity -y --force
-           choco install imgburn -y --force
-           choco install 7zip.install -y --force
-           choco install teamviewer -y --force
-           choco install anydesk -y --force
+           choco install -y googlechrome --ignore-checksums
+           choco install -y firefox --ignore-checksums --force 
+           choco install -y winrar --ignore-checksums --force
+           choco install -y open-shell --ignore-checksums --force
+           choco install -y vlc-skins --ignore-checksums --force
+           choco install -y gimp --ignore-checksums --force
+           choco install -y adobereader --ignore-checksums --force
+           choco install -y audacity --ignore-checksums --force
+           choco install -y imgburn --ignore-checksums --force
+           choco install -y 7zip.install --ignore-checksums --force
+           choco install -y teamviewer --ignore-checksums --force
+           choco install -y anydesk --ignore-checksums --force
        }
        12{
-           choco uninstall chrome-remote-desktop-chrome -y --force
-           choco uninstall firefox -y --force
-           choco uninstall winrar -y --force
-           choco uninstall open-shell -y --force
-           choco uninstall vlc -y --force
-           choco uninstall gimp -y --force
-           choco uninstall adobereader -y --force
-           choco uninstall onlyoffice -y --force
-           choco uninstall audacity -y --force
-           choco uninstall imgburn -y --force
-           choco uninstall 7zip.install -y --force
-           choco uninstall teamviewer -y --force
-           choco uninstall anydesk -y --force
+           choco -y uninstall googlechrome --ignore-checksums
+           choco -y uninstall firefox --ignore-checksums --force 
+           choco -y uninstall winrar --ignore-checksums --force 
+           choco -y uninstall open-shell --ignore-checksums --force 
+           choco -y uninstall vlc --ignore-checksums --force 
+           choco -y uninstall gimp --ignore-checksums --force 
+           choco -y uninstall adobereader --ignore-checksums --force 
+           choco -y uninstall onlyoffice --ignore-checksums --force 
+           choco -y uninstall audacity --ignore-checksums --force 
+           choco -y uninstall imgburn --ignore-checksums --force 
+           choco -y uninstall 7zip.install --ignore-checksums --force 
+           choco -y uninstall teamviewer --ignore-checksums --force 
+           choco -y uninstall anydesk --ignore-checksums --force 
        
        }
        13{exit}
